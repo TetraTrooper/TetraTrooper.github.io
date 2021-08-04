@@ -2,12 +2,19 @@
             body{
                 font-family: 'Mulish', sans-serif;
                 font-weight: 300;
-                color: rgb(0, 0, 0);
-                background-color: rgb(161, 159, 159);
+                color: rgb(231, 223, 223);
+                background-color: black;
+                margin: 0px;
+            }
+            header{
+                background-color: black;
+                padding: 5px
+                ;
             }
             nav{
                 font-family: 'Mulish', sans-serif;
                 font-weight: 500;
+                margin-bottom: 5px;
             }
             nav ul{
                 list-style-type: none;
@@ -16,7 +23,16 @@
             }
             nav li{
                 display: inline-block;
-                margin: 0px 20px 0px 0px;
+                margin-left:  20px;;
+                background-color:rgb(131, 80, 12);
+                border-radius: 15px;
+                padding: 5px;
+            }
+            nav li :first-child{
+                margin-left: 0px;
+            }
+            a{
+                color: rgb(0, 0, 255);
             }
             a:link{
                 text-decoration: none;
@@ -26,9 +42,11 @@
             }
             a:hover{
                 text-decoration: underline;
-                background-color: yellow;
+                border-radius: 15px;
             }
             a:active{
                 text-decoration: underline;
-                color: red
+                color: red;
+                border-radius: 15px;
+                
             }
