@@ -2,19 +2,25 @@
             body{
                 font-family: 'Mulish', sans-serif;
                 font-weight: 300;
-                color: white;
-                background-color: black;
+                color: rgb(0, 0, 0);
+                background-color: rgb(161, 159, 159);
             }
             nav{
                 font-family: 'Mulish', sans-serif;
                 font-weight: 500;
             }
-            ul{
+            nav ul{
                 list-style-type: none;
                 padding: 0;
                 margin: 0;
             }
-            li{
+            nav li{
                 display: inline-block;
                 margin: 0px 20px 0px 0px;
+            }
+            a:active{
+                text-decoration: underline;
+            }
+            a:hover{
+                text-decoration: ;
             }
