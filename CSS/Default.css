@@ -1,52 +1,38 @@
-            @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
-            body{
-                font-family: 'Mulish', sans-serif;
-                font-weight: 300;
-                color: rgb(231, 223, 223);
-                background-color: black;
-                margin: 0px;
-            }
-            header{
-                background-color: black;
-                padding: 5px
-                ;
-            }
-            nav{
-                font-family: 'Mulish', sans-serif;
-                font-weight: 500;
-                margin-bottom: 5px;
-            }
-            nav ul{
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
-            }
-            nav li{
-                display: inline-block;
-                margin-left:  20px;;
-                background-color:rgb(131, 80, 12);
-                border-radius: 15px;
-                padding: 5px;
-            }
-            nav li :first-child{
-                margin-left: 0px;
-            }
-            a{
-                color: rgb(0, 0, 255);
-            }
-            a:link{
-                text-decoration: none;
-            }
-            a:visited{
-                text-decoration: none;
-            }
-            a:hover{
-                text-decoration: underline;
-                border-radius: 15px;
-            }
-            a:active{
-                text-decoration: underline;
-                color: red;
-                border-radius: 15px;
-                
-            }
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+ body{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: rgb(231, 223, 223);
+    margin: 0px;
+    background-image: url("../images/cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(26, 25, 25);
+}
+header{
+    background-color: black;
+    padding: 5px;
+}
+nav{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    background-color: rgb(29, 29, 29);
+    overflow: hidden;
+
+}
+nav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover{
+    background-color: white;
+    color:black;
+}
+nav a.active{
+    background-color: lightblue;
+    color:black
+}
