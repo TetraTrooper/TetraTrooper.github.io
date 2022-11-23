@@ -13,6 +13,9 @@ header{
     background-color: black;
     padding: 5px;
 }
+a{
+  color: rgb(95, 202, 216)
+}
 nav{
     font-family: 'Mulish', sans-serif;
     font-weight: 500;
